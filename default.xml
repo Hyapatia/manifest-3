@@ -12,9 +12,6 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
-
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" 
