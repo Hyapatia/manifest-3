@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- REMOVE PROJECTS -->
+ <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+ <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+
+  <!-- BEGIN GEMINI -->
+ <project name="PixelExperience-Devices/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="oreo-mr1-gemini"/>
+ <project name="PixelExperience-Devices/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="oreo-mr1"/>
+ <project name="AEXmod/platform_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="o-eas-work"/>
+ <project name="AEXmod/hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github" revision="8.1-caf-8996"/>
+ <project name="AEXmod/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="8.1-caf-8996"/>
+ <project name="AEXmod/hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github" revision="8.1-caf-8996"/>
+  <!-- END GEMINI -->
+
+  <!-- BEGIN TOOLCHAIN -->
+ <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="linaro" revision="master" />
+ <project name="AEXmod/platform_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" groups="pdk" remote="github" revision="8.1"/>
+ <project name="AEXmod/platform_prebuilts_kernel-tc" path="prebuilts/gcc/linux-x86/aarch64" remote="github" revision="gcc-8.x" />
+  <!-- END TOOLCHAIN -->
+</manifest>
